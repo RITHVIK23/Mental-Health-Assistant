@@ -20,6 +20,12 @@ The web-based interface is simple, clean, and user-friendly, designed for anyone
 ### Python Version
 - Python 3.8 or later is required.
 
+### Vector Store Setup:
+Use Chroma or FAISS for embedding and storing documents, then query for relevant results.
+
+### Web Content Indexing:
+Load and index content from web pages using the WebBaseLoader.
+
 ### Dependencies
 - OpenAI API key
 - LangChain
